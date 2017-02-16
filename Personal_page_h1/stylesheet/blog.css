@@ -1,0 +1,24 @@
+#blog h3, h4 {
+	text-align: center;
+	padding: 15px;
+}
+
+#blog .contenedor {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#blog article {
+	margin: 15px;
+}
+
+#blog img {
+	width: 180px;
+	max-width: 180px;
+	background: #808080;
+	border-radius: 50%;
+	border: 2px solid #000;
+	cursor: pointer;
+	position: center; 
+}
